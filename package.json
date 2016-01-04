@@ -1,0 +1,22 @@
+{
+  "name": "ab-log",
+  "version": "0.0.1",
+  "description": "Simple `chalk` wrapper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allblue-pl/ab-log.git"
+  },
+  "author": "AllBlue Monkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allblue-pl/ab-log/issues"
+  },
+  "homepage": "https://github.com/allblue-pl/ab-log#readme",
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}
