@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/allblue-pl/ab-log#readme",
   "dependencies": {
-    "chalk": "^1.1.1"
+    "chalk": "1.1.*"
   }
 }
