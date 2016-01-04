@@ -4,16 +4,19 @@ var chalk = require('chalk');
 
 
 module.exports = {
-    error: function(msg) {
-        console.error(chalk.red(msg));
+    error: function() {
+        arguments[0] = chalk.red(arguments[0]);
+        console.error.apply(console, arguments);
     },
-    log: function(msg) {
-        console.log(msg);
+    log: function() {
+        console.log.apply(console, arguments);
     },
     success: function(msg) {
-        console.log(chalk.green(msg));
+        arguments[0] = chalk.green(arguments[0]);
+        console.log.apply(console, arguments);
     },
     warning: function(msg) {
-        console.warn(chalk.yellow(msg));
+        arguments[0] = chalk.yellow(arguments[0]);
+        console.warn.apply(console, arguments);
     }
 };
