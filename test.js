@@ -1,6 +1,6 @@
 'use strict';
 
-var abLog = require('index.js');
+var abLog = require('./index.js');
 
 
 abLog.log('Log.');

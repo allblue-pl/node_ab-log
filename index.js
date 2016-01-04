@@ -5,16 +5,15 @@ var chalk = require('chalk');
 
 module.exports = {
     error: function(msg) {
-        chalk.red(msg);
-        process.exit();
+        console.error(chalk.red(msg));
     },
     log: function(msg) {
         console.log(msg);
     },
     success: function(msg) {
-        chalk.green(msg);
+        console.log(chalk.green(msg));
     },
     warning: function(msg) {
-        chalk.yellow(msg);
+        console.warn(chalk.yellow(msg));
     }
 };
