@@ -15,7 +15,7 @@ module.exports = {
         arguments[0] = chalk.green(arguments[0]);
         console.log.apply(console, arguments);
     },
-    warning: function(msg) {
+    warn: function(msg) {
         arguments[0] = chalk.yellow(arguments[0]);
         console.warn.apply(console, arguments);
     }
