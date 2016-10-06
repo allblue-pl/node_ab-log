@@ -1,6 +1,6 @@
 # AB Log
 
-Simple `chalk` wrapper for logging purposes.
+Simple 'chalk' package wrapper for logging purposes.
 
 ## Installation
 
