@@ -1,6 +1,6 @@
 {
   "name": "ab-log",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Simple `chalk` wrapper.",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allblue-pl/ab-log.git"
+    "url": "git+https://github.com/allblue-pl/npm-ab-log.git"
   },
-  "author": "AllBlue Monkey",
+  "author": "Jakub Zolcik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allblue-pl/ab-log/issues"
+    "url": "https://github.com/allblue-pl/npm-ab-log/issues"
   },
-  "homepage": "https://github.com/allblue-pl/ab-log#readme",
+  "homepage": "https://github.com/allblue-pl/npm-ab-log#readme",
   "dependencies": {
     "chalk": "1.1.*"
   }
