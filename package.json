@@ -1,6 +1,6 @@
 {
   "name": "ab-log",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple `chalk` wrapper.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/allblue-pl/npm-ab-log#readme",
   "dependencies": {
-    "chalk": "1.1.*"
+    "chalk": "^1.1.3"
   }
 }
