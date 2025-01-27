@@ -1,6 +1,6 @@
 {
   "name": "ab-log",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Simple `chalk` wrapper.",
   "main": "index.js",
   "scripts": {
